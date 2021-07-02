@@ -1,0 +1,20 @@
+<form class="add-form" (ngSubmit)="onSubmit()" *ngIf="showAddForm">
+    <div class="form-control">
+        <label for='description'>Description</label>
+        <input type="text" name="description" [(ngModel)]="description" id="description"
+            placeholder="Enter Description" />
+    </div>
+    <div class="form-control">
+        <label for='date'>Date</label>
+        <input type="text" name="date" [(ngModel)]="date" id="date" placeholder="Enter Date" />
+    </div>
+    <div class="form-control">
+        <label for='priority'>Priority</label>
+        <select name='priority' [(ngModel)]='priority' id='priority'>
+            <option value="Most Important">Most Important</option>
+            <option value="Mildly Important">Mildly Important</option>
+            <option value="Least Important">Least Important</option>
+        </select>
+    </div>
+    <input class="btn btn-block" type="submit" value="ADD MEMO" />
+</form>

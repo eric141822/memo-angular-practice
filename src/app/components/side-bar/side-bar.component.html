@@ -1,0 +1,5 @@
+<div class="category" *ngIf="hasURL('/')">
+    <h4 [ngStyle]="{'color': selectedMost ? 'lightgrey' : '', 'text-decoration' : selectedMost ? 'underline' : ''}" (dblclick)="onSelect($event)">Most Important<fa-icon [icon]='faTimes' (click)="cancelSelect()" *ngIf="selectedMost"></fa-icon></h4>
+    <h4 [ngStyle]="{'color': selectedMildly ? 'lightgrey' : '', 'text-decoration' : selectedMildly ? 'underline' : ''}" (dblclick)="onSelect($event)">Mildly Important<fa-icon [icon]='faTimes' (click)="cancelSelect()" *ngIf="selectedMildly"></fa-icon></h4>
+    <h4 [ngStyle]="{'color': selectedLeast ? 'lightgrey' : '', 'text-decoration' : selectedLeast ? 'underline' : ''}" (dblclick)="onSelect($event)">Least Important<fa-icon [icon]='faTimes' (click)="cancelSelect()" *ngIf="selectedLeast"></fa-icon></h4>
+</div>

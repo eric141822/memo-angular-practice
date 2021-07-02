@@ -1,0 +1,5 @@
+<span *ngIf="cancelSearch">Cancel Search <fa-icon [icon]='faTimes' (click)="eraseSearch()"></fa-icon></span>
+<app-add-form (onAddMemo)="addMemo($event)"></app-add-form>
+<app-memo-item *ngFor="let memo of memos" [memo]="memo" (delete)="deleteMemo($event)"
+    (updatePriority)="updateMemoPriority($event)">
+</app-memo-item>

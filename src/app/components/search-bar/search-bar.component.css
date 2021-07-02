@@ -1,0 +1,13 @@
+.searchBar {
+  margin-top: 30px;
+  padding: 10px 20px;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+}
+
+input {
+  margin-right: 5px;
+  border-radius: 5px;
+  height: 30px;
+}

@@ -1,0 +1,9 @@
+<div class="memos">
+    <h3>{{ memo.description }}<fa-icon [icon]='faTimes' [ngStyle]="{'color': 'red'}" (click)="onDelete(memo)"></fa-icon>
+    </h3>
+    <p>{{ memo.date }}</p>
+    <p>{{ memo.priority }} <fa-icon [icon]='faArrowUp' [ngStyle]="{'color': 'blue'}" (click)="onUpdatePriority(memo)">
+        </fa-icon>
+    </p>
+
+</div>

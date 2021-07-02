@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  flex: 5;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  background-color: lightgreen;
+}
+h1 {
+  display: inline-block;
+}

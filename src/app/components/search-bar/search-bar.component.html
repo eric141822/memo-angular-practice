@@ -1,0 +1,4 @@
+<div class="searchBar" *ngIf="hasURL('/')">
+    <input type='text' name='search' [(ngModel)]='search' id='search' placeholder='Enter keyword here' />
+    <fa-icon [icon]='faSearch' (click)="onSearch()"></fa-icon>
+</div>

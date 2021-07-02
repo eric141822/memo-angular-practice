@@ -1,0 +1,14 @@
+<div class="topBar">
+    <app-header></app-header>
+</div>
+<div class="main">
+    <div class="sidebar" *ngIf="hasURL('/')">
+        <app-side-bar></app-side-bar>
+    </div>
+    <div class="container">
+        <app-add-button></app-add-button>
+        <app-search-bar></app-search-bar>
+        <router-outlet></router-outlet>
+        <app-footer></app-footer>
+    </div>
+</div>
