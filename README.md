@@ -2,7 +2,7 @@
 
 Simple memo web app written for the purpose of practicing Angular using a fake DB back-end via JSON-server, with the help of Traversy Media's [Angular Crash Course](https://www.youtube.com/watch?v=3dHNOWTI7H8).
 
-In partivular, the add form/button and memo item and their respectice CSS remain mostly unchanged.
+In particular, the add form/button and memo item and their respectice CSS remain mostly unchanged.
 
 Again, huge thanks to Traversy Media's great tutorial, check him out on [Youtube](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)!
 
@@ -18,7 +18,7 @@ Added _search bar_, searches specific memo item via description.
 
 ## To Test
 
-Download all the files.
+Clone the repo, and
 
 ### Install the Dependencies
 
